@@ -1,0 +1,357 @@
+body{
+    height: auto;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(0, 16, 129);
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h1{
+    color: white;
+    word-spacing: 2px ;
+    font-family: "rubic-regular", sans-serif;
+    font-weight: normal;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 88px;
+    z-index: 1;
+    
+}
+
+.logo{
+    height: 59px;
+    width: 150px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+
+.more-options {
+    position: absolute;
+    display: flex;
+    justify-content: space-around; 
+    gap: 25px; 
+    left: 190px;
+    word-spacing: 20px;
+}
+
+.more-options a {
+    text-decoration: none; 
+    font-family: "rubik" , sans-serif;
+    font-weight: bold;
+    color: black; /* Set the color */
+    font-size: 14px; /* Adjust the font size */
+    
+}
+a{
+    letter-spacing: .5px;
+}
+.accnd-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+    margin: 0 20px; /* Adds space between each image */
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+    width: 30px; /* Reduce the image width */
+    height: 30px; /* Maintain the aspect ratio */
+}
+
+.item p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+
+
+.search{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 200px;
+}
+
+.search-icon{
+    position: relative;
+    top: 5px;
+    right: 20px;
+    height: 20px;
+}
+
+
+.first-img{
+    
+    width: 100%;
+    margin-top: 107px;
+    margin-bottom: 2.8px;
+    
+
+}
+.page-2{
+    display: flex;
+    gap: 10px;
+    margin-left: 66px;
+    margin-right: 69px;
+   
+}
+
+
+
+#img{
+    height: 423px;
+    }
+
+
+
+#body2text{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+}
+
+.more-brands{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    width: 1482.3px;
+    margin: auto;
+}
+
+/* .more-brands{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+    background-color: purple;
+    justify-content: space-around;
+}
+
+    
+    
+
+
+#brand-logo{
+    height: 70px;
+    width: 100%;
+    
+}
+
+.brand-img-1{
+    margin-left: 100px;
+}
+
+.brand-img-3{
+    margin-right: 100px;
+} */
+
+
+.more-brands {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Add 20px gap between the images */
+    padding: px; /* Optional: Add some padding if necessary */
+    
+}
+
+#brand-logo {
+    width: 300px; /* Set the width for the images (adjust as per your design) */
+    height: auto; /* Keep aspect ratio */
+}
+
+.page-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 66px;
+    margin-right: 69px;
+}
+
+#img2{
+    height: 240px;
+}
+
+.button {
+    background-color: #7dc260;
+    color: white; 
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    border-radius: 25px;
+    margin-top: 50px;
+    cursor: pointer; 
+    width: 200px;
+}
+
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+
+.about-walkway{
+    display: flex;
+    justify-content: center;
+    
+    height: 1300.4px;
+    width: 1512.8px;
+    margin: 0;
+    padding: 0;
+}
+
+.first-box{
+    margin-top: 0;
+    
+    height: 1191.4px;
+    width: 1331.28px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2{
+    margin:0;
+   
+    padding: 0;
+}
+p{
+    font-family: "rubik" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 7px;
+}
+
+#subheading{
+    font-family: "rubic-semibold", sans-serif; 
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.finance-div{
+    display: flex;
+    justify-content: center;
+   background-color: #f0eeef;
+    height: 85.4px;
+    width: 1512.4px;
+    co
+}
+
+.payment-div{
+   
+    height: 79px;
+    width: 1482.8px;
+}
+
+.more-about-us{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.p-tag{
+    position: absolute;
+    width:90px;
+    left: 100px;
+    
+}
+
+
+
+.shipping-details{
+    display: flex;
+    justify-content:space-between ;
+    margin-right: 600px;
+}
+
+.shipping-div{
+  width: 100px;    
+  margin-right: 100px;
+}
+
+
+.prefooter{
+    background-color: blue;
+    height: 400px;
+    width: 1512.8px;
+}
+
+.prefooter {
+    background-color: #204498;
+    height: 400px;
+    width: 1512.8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.inner-div {
+    font-family: "rubic-semibold", sans-serif; 
+    height: 305.15px;
+    width: 1120px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; /* To align sections side by side */
+    padding: 20px;
+}
+
+.section {
+    width: 30%; /* Adjust width to fit all three sections */
+}
+
+.section h2 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+.section ul li {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+ 
+.inner-div2{
+    
+    
+    height: 159.55px;
+    width: 400px;
+}
+
+
+.footer{
+    height: 55px;
+}
